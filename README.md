@@ -8,7 +8,6 @@ This project is a fully functional web application that translates English sente
 ---
 
 ### My App Interface!
-> **Pro Tip:** Take a nice screenshot of your running application and drag-and-drop it into this README file on GitHub. A visual makes a huge difference!
 
 <img width="1919" height="911" alt="Image" src="https://github.com/user-attachments/assets/699386cd-2f5a-48b8-9e68-560f28955b0f" />
 ## 🚀 Project Overview
