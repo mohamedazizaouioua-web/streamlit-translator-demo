@@ -42,6 +42,34 @@ The heart of this translator is a **Transformer** model, an architecture that re
 -   **The Decoder:** Takes the Encoder's output and, one word at a time, generates the French translation, paying "attention" to the most relevant parts of the English sentence at each step.
 
 This allows the model to handle long-range dependencies and complex grammatical structures far more effectively than older architectures.
+## 🎯 State of the Art and Project Context
+
+This project implements the Transformer architecture, which is the **foundation of modern state-of-the-art (SOTA) machine translation**. To understand where this project fits, it's helpful to look at the current leaders in the field.
+
+### Commercial State-of-the-Art Systems
+
+When it comes to production-ready, highly accurate translation, the field is dominated by large-scale commercial services. These are the solutions that millions of people use daily:
+
+-   **Google Translate:** One of the most widely used services, powered by Google's massive internal Transformer-based models (like the Google Neural Machine Translation or GNMT system). It leverages enormous datasets and computational power.
+-   **DeepL Translator:** Often cited for its high-quality, nuanced, and natural-sounding translations, especially for European languages. DeepL also uses a proprietary deep neural network architecture based on the Transformer.
+-   **Microsoft Translator:** Another major player that has integrated large-scale Transformer models into its services, available across the Azure cloud platform and in products like Microsoft Office.
+
+These systems represent the peak of what is possible with virtually unlimited data and computational resources.
+
+### Architectural State-of-the-Art
+
+The underlying technology that powers these services is the **Transformer architecture**, first introduced in the 2017 paper ["Attention Is All You Need"](https://arxiv.org/abs/1706.03762). This is the exact architecture implemented in this project.
+
+The current SOTA goes a step further by creating **Large Language Models (LLMs)** based on this architecture:
+
+-   **Massive Pre-trained Models:** Instead of training on a single language pair, SOTA models like Meta's **NLLB** ("No Language Left Behind") or Google's internal models are pre-trained on trillions of words from hundreds of languages.
+-   **Encoder-Decoder Architectures:** Models like Google's **T5** ("Text-to-Text Transfer Transformer") are explicitly designed for translation and other text-to-text tasks.
+
+These models are essentially gigantic, more advanced versions of the one built in this project.
+
+### Where This Project Fits In
+
+This project serves as a **foundational, from-scratch implementation of the core SOTA architecture**. While it cannot compete with commercial systems due to differences in scale (millions vs. trillions of training examples) and model size, it successfully demonstrates the core mechanics that make modern machine translation possible. It provides a practical and deep understanding of the attention mechanism and the encoder-decoder structure that define the state of the art.
 
 ## 📦 Setup and Local Installation
 
