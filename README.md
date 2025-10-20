@@ -83,7 +83,7 @@ Want to run this app on your own machine? Follow these steps.
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/DabbebiNaim/streamlit-translator-demo.git
+    git clone https://github.com/mohamedazizaouioua-web/streamlit-translator-demo
     cd streamlit-translator-demo
     ```
 
