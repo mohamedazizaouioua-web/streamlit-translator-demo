@@ -8,7 +8,6 @@ from tensorflow.keras.preprocessing.sequence import pad_sequences
 
 # ==============================================================================
 # PAGE CONFIGURATION
-# Set the page title, icon, and layout. This is the first command to run.
 # ==============================================================================
 st.set_page_config(
     page_title="AI French Translator",
